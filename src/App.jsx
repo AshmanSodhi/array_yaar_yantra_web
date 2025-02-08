@@ -5,6 +5,7 @@ import Slide from './components/Slides/Slides'
 import Statistics from './components/Statistics/Statistics'
 import Marquee from './components/Marquee/Marquee'
 import Dashboard from './components/Dashboard/Dashboard'
+import Graph from './components/Graph/Graph'
 //import Efficiency from './components/Efficiency/Efficiency'
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Statistics/>
       <Marquee/>
       <Dashboard/>
+      <Graph/>
     </div>
   )
 }
