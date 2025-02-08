@@ -1,0 +1,38 @@
+.table{
+    background: url(../../assets/table.png);
+    width: 100%;
+    min-height: 80vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+}
+.table h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+table{
+    width: 80%; /* Adjust width as needed */
+  border-collapse: collapse; /* Removes space between borders */
+  border: 2px solid white; /* White outer border */
+  margin: auto;
+}
+th, td {
+    border: 3px solid white; /* White cell borders */
+    text-align: center; /* Centers text */
+    padding: 10px; /* Adds space inside cells */
+    color: white; /* Text color */
+    font-size: 18px;
+  }
+
+  /*th {
+    background-color: rgba(254,250, 224,0.3); 
+  }
+  
+  td {
+    background-color: rgba(254,250, 224,0.2); 
+  }*/
