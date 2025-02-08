@@ -8,7 +8,7 @@ const Navbar = () => {
         <p className='logo'>ECO FORECAST</p>
         <ul>
             <li>HOME</li>
-            <li>SIGHT</li>
+            <li>FORESIGHT</li>
             <li>INSIGHTS</li>
             <li>ADMIN</li>
         </ul>
