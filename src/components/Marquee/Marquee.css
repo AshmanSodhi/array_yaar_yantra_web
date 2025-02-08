@@ -1,0 +1,25 @@
+.marquee{
+    min-height: 10vh;
+    background-color: #26282B;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  white-space: nowrap;
+  padding: 0 10px;
+}
+.marquee p{
+    animation: marquee 15s linear infinite;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 400;
+}
+@keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }

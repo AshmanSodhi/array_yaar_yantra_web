@@ -29,8 +29,6 @@ const Statistics = () => {
         </div>
       </div>
       </div>
-      <hr />
-      <Footer/>
     </div>
   )
 }
