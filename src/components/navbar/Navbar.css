@@ -1,14 +1,19 @@
-nav{
+.navbar{
     width:100%;
     color: white;
-    padding: 4px 0;
+    padding: 15px 20px;
     position: fixed;
-    top: 10px;
     left: 0;
+    top:0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 10;
+    background: transparent;
+    transition: background 0.3s ease;
+}
+.navbar.scrolled{
+    background-color: #26282b;
 }
 .logo{
     width: 180px;
