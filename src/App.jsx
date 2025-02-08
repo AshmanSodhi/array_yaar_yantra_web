@@ -6,6 +6,7 @@ import Statistics from './components/Statistics/Statistics'
 import Marquee from './components/Marquee/Marquee'
 import Dashboard from './components/Dashboard/Dashboard'
 import Graph from './components/Graph/Graph'
+import Table from './components/Table/Table'
 //import Efficiency from './components/Efficiency/Efficiency'
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Marquee/>
       <Dashboard/>
       <Graph/>
+      <Table/>
     </div>
   )
 }
