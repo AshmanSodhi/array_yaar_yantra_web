@@ -3,6 +3,7 @@ import './Graph.css'
 import dlwd from '../../assets/dld.png'
 import graphimg from '../../assets/graphhh.jpeg'
 const Graph = () => {
+    
   return (
     <div className='forecast'>
         <h2>RENEWABLE ENERGY FORECASTING DASHBOARD</h2>
