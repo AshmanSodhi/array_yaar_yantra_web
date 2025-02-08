@@ -1,0 +1,14 @@
+.footer{
+    min-height: 20%vh;
+    padding: 10px 50px;
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer ul li{
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+}
