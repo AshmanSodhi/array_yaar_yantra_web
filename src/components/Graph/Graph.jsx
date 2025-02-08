@@ -10,15 +10,14 @@ const Graph = () => {
             <div className="overview">
                 <div className="type">
                     <ul>
-                        <li>OVERVIEW</li>
-                        <li>SOLAR</li>
                         <li>WIND</li>
+                        <li>SOLAR</li>
                         <li>HYDRO</li>
+                        <li>OVERVIEW</li>
                     </ul>
                 </div>
                 <div className="type">
                     <ul>
-                        <li>TODAY</li>
                         <li>LAST 7 DAYS</li>
                         <li>LAST MONTH</li>
                     </ul>

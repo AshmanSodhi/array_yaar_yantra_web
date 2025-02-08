@@ -7,6 +7,9 @@ import Marquee from './components/Marquee/Marquee'
 import Dashboard from './components/Dashboard/Dashboard'
 import Graph from './components/Graph/Graph'
 import Table from './components/Table/Table'
+import Insights from './components/Insights/Insights'
+import Trends from './components/Trends/Trends'
+import Footer from './components/Footer/Footer'
 //import Efficiency from './components/Efficiency/Efficiency'
 
 const App = () => {
@@ -20,6 +23,10 @@ const App = () => {
       <Dashboard/>
       <Graph/>
       <Table/>
+      <Marquee/>
+      <Insights/>
+      <Trends/>
+      <Footer/>
     </div>
   )
 }
