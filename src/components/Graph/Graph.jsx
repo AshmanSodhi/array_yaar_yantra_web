@@ -39,15 +39,15 @@ const Graph = () => {
             <h3>ENTER FEATURES OF SOLAR PANEL</h3>
             <div className="incident">
                 <h5>INCIDENT ANGLE</h5>
-                <div className="input-field"><input type="text" /></div>
+                <div className="inputs-field"><input type="text" /></div>
             </div>
             <div className="incident">
             <h5>ZENITH</h5>
-            <div className="input-field"><input type="text" /></div>
+            <div className="inputs-field"><input type="text" /></div>
             </div>
             <div className="incident">
             <h5>DATE</h5>
-            <div className="input-field"><input type="text" /></div>
+            <div className="inputs-field"><input type="text" /></div>
             </div>
             <button className='enter'>ENTER DETAILS</button>
             <hr className='divider'/>
